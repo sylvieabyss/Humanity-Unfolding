@@ -1,0 +1,116 @@
+HUMANITY UNFOLDING SOURCE-AVAILABLE LICENSE
+Version 1.0 — 24 October 2026
+
+Copyright © 2026 Sylvie Abyss. All rights reserved.
+
+NOTICE: THIS IS A PROPRIETARY SOURCE-AVAILABLE LICENSE, NOT AN OPEN-SOURCE LICENSE.
+
+1. DEFINITIONS AND SCOPE
+
+"Owner" means Sylvie Abyss, or a successor who lawfully holds the applicable rights.
+"Project" means original Humanity Unfolding source code, documentation, game art,
+audio, text, and other content explicitly distributed under this License by the
+Owner. Third-party components and material identified with separate license
+terms are excluded from this definition to the extent those terms apply.
+"Official Build" means an executable game version distributed or expressly
+designated as official by the Owner.
+
+The Owner reserves all rights not expressly granted here. This License does
+not convey ownership, an assignment of copyright, or rights in the Humanity
+Unfolding name, logos, or other marks.
+
+2. SOURCE INSPECTION AND PRIVATE EXPERIMENTATION
+
+Subject to this License, the Owner grants you a limited, nonexclusive,
+nontransferable, non-sublicensable, royalty-free permission to access, download,
+read, and make reasonably necessary copies of the published Project to study
+it, evaluate it, and prepare proposed contributions to the official project.
+
+You may privately modify and run the Project for your own noncommercial
+experimentation, learning, and testing. You may not distribute those changes,
+copies, or derived executable builds to other persons under this permission.
+
+This grant does not restrict any rights independently arising under applicable
+law or GitHub's Terms of Service, including use of GitHub's public-repository
+viewing and forking functionality.
+
+3. OFFICIAL BUILDS
+
+You may download, install, and play an unmodified Official Build for personal,
+noncommercial use, without a royalty, unless different terms are expressly
+presented with that particular build before download or installation. You may
+make copies reasonably necessary for such permitted installation and use.
+This License does not authorize you to republish, redistribute, sell, or host
+Official Builds for others.
+
+4. NO INDEPENDENT DISTRIBUTION OR COMMERCIAL EXPLOITATION
+
+Absent the Owner's prior written permission, and except for rights expressly
+granted by this License, separate third-party licenses, GitHub's Terms of
+Service, or applicable law, you may not:
+
+  a. Publish, redistribute, sublicense, sell, or provide copies of the Project
+     or a derivative thereof, whether modified or unmodified;
+  b. Distribute or host unofficial game builds or a public service based on
+     Project code or assets;
+  c. Use the Project or Official Builds commercially; or
+  d. Represent yourself or an unofficial build as endorsed by the Owner.
+
+Independent ideas, facts, and material not protected by applicable law are
+not restricted by this License merely because they resemble the Project.
+
+5. CONTRIBUTIONS
+
+The Owner may review proposed contributions to the official project but has
+no duty to accept them. Submission alone does not transfer ownership. Before
+merging any third-party code, art, audio, or writing, the Owner may require a
+separate written contributor license agreement granting rights needed to
+incorporate, modify, sublicense, and distribute the contribution under this
+License and any future project terms. See CONTRIBUTING.md.
+
+6. THIRD-PARTY MATERIALS
+
+Third-party licenses apply to their respective components. Nothing here
+purports to replace, narrow, or revoke permissions granted by third parties.
+Relevant notices should be recorded in THIRD_PARTY_NOTICES.md and alongside
+materials when required by their licenses.
+
+7. TERMINATION
+
+Permissions under this License terminate if you materially breach its terms
+and fail to cure a curable breach within 30 days after written notice from
+the Owner. Rights from other valid licenses are unaffected. Sections that
+by their nature should survive termination, including ownership,
+disclaimers, and limitations of liability, survive.
+
+8. NO WARRANTY; LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE PROJECT AND OFFICIAL
+BUILDS ARE PROVIDED "AS IS," WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NONINFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE OWNER
+IS NOT LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE
+DAMAGES ARISING FROM USE OF THE PROJECT OR OFFICIAL BUILDS.
+
+9. LICENSE HISTORY AND PROSPECTIVE APPLICATION
+
+The repository previously contained the full text of GNU General Public
+License version 3 (GPLv3). Merely including a license text does not establish
+which particular material was validly licensed under it. To the extent any
+material was validly offered or distributed under GPLv3, recipients keep the
+rights already granted to them under that license. This License does not
+retroactively revoke those rights.
+
+This License is intended to govern original Project material the Owner first
+offers under these terms on or after 24 October 2026, and later material
+expressly released under these terms where the Owner possesses the necessary
+rights. It does not purport to relicense someone else's contribution.
+
+10. PERMISSIONS AND QUESTIONS
+
+For permission to redistribute, commercially use, or publish a separate
+version of the Project, contact the Owner through the official repository's
+public issue tracker or a subsequently designated contact method. No permission
+is granted merely by sending a request.
+
+END OF TERMS
