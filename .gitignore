@@ -1,0 +1,27 @@
+# Generated builds and packed exports
+/build/
+/builds/
+/dist/
+/export/
+/exports/
+*.pck
+*.exe
+*.dll
+*.zip
+
+# Godot generated cache; preserve source assets, .godot project settings and .gdextension
+.godot/
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key

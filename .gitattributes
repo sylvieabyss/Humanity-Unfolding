@@ -1,0 +1,13 @@
+* text=auto
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ogg binary
+*.wav binary
+*.mp3 binary
+*.glb binary
+*.blend binary
+*.pck binary
+*.exe binary
+*.dll binary

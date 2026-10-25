@@ -1,23 +1,15 @@
 # Third-Party Notices
 
-This file tracks third-party libraries, engines, tools, artwork, fonts, sounds, datasets, and other materials distributed with or incorporated into Humanity Unfolding.
+These notices describe components visibly bundled with the inspected `Planetary-0.14.0-Live-World-Windows.zip`. They do not replace the complete licenses packaged with the release.
 
-**Status as of 24 October 2026:** The inspected GitHub repository contained only `README.md` and a GPLv3 `LICENSE` file, with no game source, dependencies, or bundled assets. No third-party components were identifiable from that repository snapshot. This is **not** a claim that no third-party tools or assets are used in private development.
+| Component | Evidence in supplied ZIP | Licensing |
+| --- | --- | --- |
+| Godot Engine runtime | `runtime/PlanetaryRuntime.exe`, `runtime/Godot-LICENSE.txt`, `runtime/Godot-THIRD-PARTY-NOTICES.json` | The Godot license and bundled third-party notices apply. |
+| godot-cpp native bindings | `runtime/systems/native/GODOT-CPP-LICENSE.md` | Its separately bundled license applies. |
+| Planetary native extension | `runtime/systems/native/bin/planetary_native.windows.x86_64.dll` | Source and provenance were not supplied. Confirm ownership and dependencies before licensing the extension's code. |
 
-## Inventory
+The Godot and godot-cpp license and notice files should remain with distributed builds. Before publishing source, inventory additional dependencies, tools, images, fonts, audio, and assets and preserve any required attribution or distribution terms.
 
-| Component or asset | Version / source | License | Where used | Notice or obligations |
-| --- | --- | --- | --- | --- |
-| _None documented yet_ | | | | |
+The proprietary project license applies only to material the owner has the right to license. It does not override third-party permissions or obligations.
 
-## Before adding a dependency or asset
-
-1. Identify the copyright holder, upstream URL, exact version, and complete license text.
-2. Verify compatibility with **proprietary source-available distribution**. Do not assume that an open-source dependency can be relicensed under this project's license.
-3. Preserve attribution, notices, source-offer obligations, and any required license copies.
-4. For copyleft code (including GPL and AGPL), obtain a specific legal and architectural review **before** incorporating or distributing it. Do not combine it into proprietary distributed code without establishing a lawful license basis.
-5. Record modifications to third-party components when required.
-6. Check asset, font, audio, dataset, engine, and SDK terms separately; they may differ from code licenses.
-7. Keep records of licenses and notices included in each release.
-
-The main [LICENSE](LICENSE) covers only Project material the owner has the right to license. It does not replace third-party licenses or rights previously granted to recipients of earlier materials.
+**Source limitation:** No editable game source, Godot project file, native extension source, or third-party manifest was present in the uploaded Windows release archive. This is a packaging-level review, not a full software-composition audit.

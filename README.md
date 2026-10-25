@@ -1,36 +1,45 @@
 # Humanity Unfolding
 
-**A god game and civilization simulator spanning humanity's journey from the earliest societies to the near future.**
+**A civilization god game and simulator, from prehistoric societies toward the near future.**
 
-Humanity Unfolding is an independent game project by Sylvie Abyss. It is not presented as an All Worlds Interactive title.
+Humanity Unfolding is an independent project by Sylvie Abyss. The Windows build currently retains the internal product name **Planetary** in its launcher and runtime. The project is in development and its gameplay and release status may change.
 
-> **Project status:** Early development. Gameplay details, supported platforms, installation instructions, and release dates have not yet been publicly established. This repository currently contains project documentation; it does not yet contain a playable game.
+## Latest Windows preview
 
-## The idea
+**Planetary 0.14.0 — Live World and Seasons preview**
 
-Guide, observe, or influence humanity as civilization develops across eras. The project's stated scope runs from prehistoric societies to the near future, combining god-game and simulation ideas. Specific mechanics will be documented as they are implemented and tested.
+The supplied build brings physical settlement parcels into the world, adds direct placement of supported buildings through God powers, displays recorded people and sailing craft, and shows seasonal landscape changes. These are previews of evolving systems, not evidence of a completed release.
 
-## Development and participation
+**Stability warning:** The release notes report an unexplained spontaneous Windows restart during previous visible testing. The cause remains unresolved. No subsequent visible/GPU endurance test was performed for this build. This package is a feature preview on a stability hold and **is not certified safe for stress testing or long sessions**. Back up saves and exercise caution.
 
-- Read the source when it is published and follow progress in this official repository.
-- Open an issue to report a problem or propose a feature.
-- Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting code, art, writing, or other content.
-- Only releases designated by the project owner are official Humanity Unfolding releases.
+### Download and run
 
-There is no published build yet. Do not treat repository source or third-party forks as an official download.
+1. Download `Planetary-0.14.0-Live-World-Windows.zip` from the repository's **Releases** page after it has been uploaded there.
+2. Extract the complete ZIP. Keep the `runtime` directory next to `Planetary.exe`.
+3. Run the top-level `Planetary.exe`. Do not move just the executable out of the extracted folder.
+4. Read the included `START-HERE.txt` and `LIVE-WORLD.txt` before playing.
 
-## License
+This preview uses the separate `LocalAppData/PlanetaryCivilizationLiveWorld` Windows save profile. Older builds do not support some newer world metadata; retain your earlier builds and backup saves.
 
-**Source-available, proprietary; not open source.** Copyright © 2026 Sylvie Abyss. All rights reserved except permissions expressly granted in [LICENSE](LICENSE) or applicable third-party licenses.
+### Known limitations
 
-The license permits inspection and private noncommercial experimentation but does **not** authorize independently distributing modified or unmodified copies, commercial reuse, or publishing unofficial game builds. GitHub platform functionality, including public-repository forks, remains governed by GitHub's Terms of Service. See the full license for controlling terms.
+- Continuous civilian walking and saved household addresses are not implemented.
+- Roads, per-building inventories, fully independent port economies, aircraft, and naval combat remain unfinished.
+- Visual/GPU performance, sustained high frame rates, and long-session stability remain unverified by the attached headless checks.
+- The game currently ships as a Windows build; no source project is included in the provided release ZIP.
 
-The repository previously included GPLv3 license text. Changing the current notice does not retroactively revoke valid rights in material previously distributed under GPLv3. See the license-history section in [LICENSE](LICENSE).
+See [docs/RELEASE-0.14.0.md](docs/RELEASE-0.14.0.md) for more detail and the release artifact checksum.
 
-## Third-party materials
+## Source availability
 
-Third-party dependencies and assets may have different licenses. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) as the project grows.
+The current GitHub upload package contains repository documentation, **not the editable Godot project or native extension source**. To make Humanity Unfolding truly source-available, the owner must additionally publish the original development source files, project configuration, assets they have the right to distribute, and required build instructions. The shipped `.pck`, `.exe`, and `.dll` do not substitute for those files.
 
-## Disclaimer
+## License and contributions
 
-This project is under development. Nothing in the repository constitutes a promise of particular features, platforms, or release dates.
+The project's **original materials** are intended to be offered under the custom [Humanity Unfolding Source-Available License](LICENSE): publicly inspectable, with private noncommercial experimentation allowed, but no independently distributed versions without permission. This is **not an open-source license**.
+
+The supplied binary release contains Godot Engine and godot-cpp components with their own license notices. Those licenses remain in force and cannot be restricted by the game's proprietary terms. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Please review [CONTRIBUTING.md](CONTRIBUTING.md) before proposing substantial code or content. External material should not be merged before contributor rights are clearly agreed.
+
+The repository previously included GPLv3 license text. Any permissions validly granted to earlier material under GPLv3 remain unaffected by the new licensing statement.
